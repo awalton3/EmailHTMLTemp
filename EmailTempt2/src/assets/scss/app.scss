@@ -1,18 +1,28 @@
 @import 'settings';
 @import 'foundation-emails';
 
-.wrapper-inner {
-    background-image: url("http://i65.tinypic.com/4hp2er.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+
+.inner {
+  background-color: black;
+  width: 100%;
+
 }
 
-// .inner {
-//   background-color: black;
-//   background-image: none;
-//
-// }
+.blackBackground {
+  background-color: $black;
+  width: inherit;
+}
+
+.container {
+  width: $global-width;
+}
+
+.background{
+    background-image: url("http://i65.tinypic.com/4hp2er.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
 
 .header-text {
     font-size: 16px;
