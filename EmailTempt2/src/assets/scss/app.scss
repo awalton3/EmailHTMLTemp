@@ -1,0 +1,46 @@
+@import 'settings';
+@import 'foundation-emails';
+
+// .background {
+//     background-image: url("http://i63.tinypic.com/rrv8cw.jpg");
+//     background-repeat: no-repeat;
+//     background-position: center top;
+// }
+//
+// .inner {
+//   background-color: black;
+//   background-image: none;
+//
+// }
+
+.header-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: sub;
+}
+
+.sub-header-text {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button-center-text {
+    margin-bottom: 0px !important;
+}
+
+//.button/icons {
+//    display: inline;
+//}
+.footer-text {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+}
